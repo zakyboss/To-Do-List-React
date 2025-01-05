@@ -1,0 +1,11 @@
+#todo {
+  height: 60px;
+}
+.headerContainer {
+  display: flex;
+}
+#greeter {
+  margin-left: 280px;
+  font-family: Arial;
+  text-decoration: underline;
+}
