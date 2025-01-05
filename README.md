@@ -1,12 +1,14 @@
 # Zakyboss Todo App
 
-A clean and intuitive Todo list application built with React. Keep track of your daily tasks with a modern, responsive interface.
+A clean and intuitive Todo list application built with React. Keep track of your daily tasks with a modern, responsive interface and task reordering capabilities.
 
-![Todo App Screenshot](https://github.com/user-attachments/assets/daebd840-dea6-477c-af4e-41b7a0f6b29a)
+![Todo App Screenshot](./screenshot.png)
 
 ## Features
 
 - Add and remove tasks
+- Reorder tasks with up/down functionality
+- Drag-and-drop task management
 - Modern, responsive design
 - Persistent footer with dynamic year update
 - Clean and minimalist UI with green theme
@@ -39,10 +41,17 @@ npm run dev
 
 - `src/components/`
   - `Header.jsx` - Application header with logo
-  - `Todo.jsx` - Main todo list functionality
+  - `Todo.jsx` - Main todo list functionality with task reordering
   - `Footer.jsx` - Dynamic footer component
 - `src/App.jsx` - Main application component
 - `src/index.css` - Global styles
+
+## Usage
+
+- Add new tasks using the input field
+- Click the delete button to remove tasks
+- Use the up/down arrows to reorder your tasks based on priority
+- Tasks stay in their reordered position until manually changed
 
 ## Future Improvements
 
@@ -51,6 +60,7 @@ npm run dev
 - Due dates for tasks
 - Task completion status
 - Filter and search functionality
+- Keyboard shortcuts for task reordering
 
 ## License
 
